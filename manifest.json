@@ -1,0 +1,8 @@
+{
+  "name": "Brindisi.tk - Il sito di informazione senza padroni",
+  "short_name": "Brindisi.tk",
+  "start_url": "/",
+  "theme_color": "#000",
+  "background_color": "#000",
+  "display": "standalone"
+}
