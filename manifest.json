@@ -1,8 +1,15 @@
 {
+  "lang": "it-IT",
   "name": "Brindisi.tk - Il sito di informazione senza padroni",
   "short_name": "Brindisi.tk",
   "start_url": "/",
-  "icons": "/brindisitkpwa.png",
+  "icons": [
+    {
+      "src": "/brindisitkpwa.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
   "theme_color": "#000",
   "background_color": "#000",
   "display": "standalone"
