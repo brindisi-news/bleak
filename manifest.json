@@ -6,7 +6,7 @@
   "theme_color": "#000",
   "background_color": "#000",
   "display": "standalone",
-  "icons": [
+"icons": [
     {
       "src": "/brindisitkpwa.png",
       "sizes": "512x512",
@@ -14,7 +14,8 @@
     },
     {
       "src": "/brindisitkpwap.png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "type": "image/png"
     }
   ]
 }
