@@ -727,7 +727,7 @@
         <article class="{{post_class}} container article-container" data-id="{{comment_id}}">
             <div class="row">
                 <div class="col-md-12 post-cover-container">
-                    <time class="post-date" datetime="{{date format="DD-MM-YYYY"}}">{{date format="Dddd, DD MMMM YYYY"}}</time>
+                    <time class="post-date" datetime="{{date format="DD-MM-YYYY"}}">{{date format="DD MMMM YYYY"}}</time>
                     <div class="post-cover post-meta {{#if feature_image}}has-image{{/if}}">
                         <div class="pagination-number"></div>
                         <h1 class="post-title col-lg-8 col-sm-10 offset-sm-1 offset-lg-2">{{title}}</h1>
@@ -740,7 +740,9 @@
                     </div>
                 </div>
             </div>
-<header class="post-header{{#if feature_image}} has-cover{{/if}}" {{#if feature_image}}style="width: 100%; background-image: url({{img_url feature_image}});"{{/if}}></header>
+        {{#if feature_image}}<figure class="post-image">
+                <amp-img src="{{img_url feature_image}}" width="100%" layout="responsive"></amp-img>
+        </figure>{{/if}}
             <div class="row">
                 <div class="col-lg-8 col-sm-10 offset-sm-1 offset-lg-2">
                     <section class="post-content">
