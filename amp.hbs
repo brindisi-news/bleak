@@ -448,17 +448,17 @@
             font-size: 12px;
             line-height: 22px;
             letter-spacing: 3px;
-            color: #f2f2f2;
+            color: #333333;
             text-transform: uppercase;
             font-family: "roboto-mono", "Roboto Mono", sans-serif;
         }
 
         .article-container .author-name a:hover{
-            color: #4dff88;
+            color: #3dc2b9;
         }
 
         .post-content a{
-            border-bottom: 1px solid #4dff88;
+            border-bottom: 1px solid #3dc2b9;
         }
 
         .post-content a:hover{
@@ -636,7 +636,7 @@
         }
 
         footer h3{
-            color: #4dffa6;
+            color: #3dc2b9;
             font-size: 20px;
             letter-spacing: 2px;
             line-height: 26px;
@@ -740,7 +740,7 @@
                     </div>
                 </div>
             </div>
-
+<header class="post-header{{#if feature_image}} has-cover{{/if}}" {{#if feature_image}}style="background-image: url({{img_url feature_image}});"{{/if}}>
             <div class="row">
                 <div class="col-lg-8 col-sm-10 offset-sm-1 offset-lg-2">
                     <section class="post-content">
