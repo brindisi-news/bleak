@@ -51,22 +51,22 @@
 			{{/if}}
 		</div>
 	</div>
-	{{ghost_foot}}
 	<script type="text/javascript" src="https://brindisi.tk{{asset "js/dependencies.js"}}"></script>
 	<script type="text/javascript" src="https://brindisi.tk{{asset "js/script.js"}}"></script>
+	
 	<script type="text/javascript" src="{{asset "js/ghost-search.js"}}"></script>
 	<script type="text/javascript">
     let ghostSearch = new GhostSearch({
         key: '84d2ddead05a90389bdb55def0',
-        host: 'https://{admin_domain}',
-        input: '#my-custom-input',
-        results: '#my-custom-results',
+        host: 'https://brindisi.tk',
+        input: '#ghost-search-field',
+        results: '#ghost-search-results',
         template: function(result) {
             let url = [location.protocol, '//', location.host].join('');
             return '<li><a href="' + url + '/' + result.slug + '">' + result.title + '</a></li>';  
         }
     })
 </script>
-</script>
+{{ghost_foot}}
 </body>
 </html>
