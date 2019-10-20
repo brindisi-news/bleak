@@ -10,8 +10,8 @@ class GhostSearch {
         this.check = false;
 
         const defaults = {
-            host: '',
-            key: '',
+            host: 'https://brindisi.tk/',
+            key: '84d2ddead05a90389bdb55def0',
             version: 'v2',
             input: '#ghost-search-field',
             results: '#ghost-search-results',
