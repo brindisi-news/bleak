@@ -16,7 +16,7 @@ class GhostSearch {
             input: '#ghost-search-field',
             results: '#ghost-search-results',
             button: '',
-            defaultValue: '',
+            defaultValue: 'Cerca',
             template: function(result) {
                 let url = [location.protocol, '//', location.host].join('');
                 return '<a href="' + url + '/' + result.slug + '/">' + result.title + '</a>';  
