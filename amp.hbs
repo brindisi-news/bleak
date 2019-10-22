@@ -741,7 +741,7 @@
                                 <a href="{{url}}">{{name}}</a>
                             {{/primary_author}}
                         </div>
-                        <a href="#" class="read-later" data-id="{{id}}"></a>
+                        <a href="#" class="read-later" data-id="{{comment_id}}"></a>
                     </div>
                 </div>
             </div>
@@ -760,7 +760,7 @@
                         <ul class="tags">
                         {{#foreach tags}}
                             <li>
-                                <a href="{{url}}" title="{{name}}" class="tag tag-{{id}} {{slug}}">{{name}}</a>
+                                <a href="{{url}}" title="{{name}}" class="tag tag-{{comment_id}} {{slug}}">{{name}}</a>
                             </li>  
                         {{/foreach}}
                         </ul>
