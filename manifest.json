@@ -5,7 +5,7 @@
   "start_url": "/",
   "theme_color": "#000",
   "background_color": "#000",
-  "display": "standalone",
+  "display": "minimal-ui",
 "icons": [
     {
       "src": "/brindisitkpwa.png",
