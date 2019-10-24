@@ -34,10 +34,10 @@
 								</div>
 
 								<div class="post-share">
-									<a class="icon-twitter" href="https://twitter.com/share?text={{title}}&url={{url absolute="true"}}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+									<a class="icon-twitter" aria-label="Condividi con Twitter" href="https://twitter.com/share?text={{title}}&url={{url absolute="true"}}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
 										<span>Twitter</span>
 									</a>
-									<a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+									<a class="icon-facebook" aria-label="Condividi con Facebook" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
 										<span>Facebook</span>
 									</a>
 								</div>
@@ -101,7 +101,7 @@
 
 			<nav class="post-nav">
 				{{#next_post}}
-					<a class="post-nav-item post-nav-next" href="{{url absolute="true"}}">
+					<a class="post-nav-item post-nav-next" aria-label="{{title}}" href="{{url absolute="true"}}">
 						<section class="post-nav-teaser">
 							<span class="post-nav-icon"><i class="icon-arrow-left"></i></span>
 							<span class="post-nav-info">
@@ -112,7 +112,7 @@
 					</a>
 				{{/next_post}}
 				{{#prev_post}}
-					<a class="post-nav-item post-nav-prev" href="{{url absolute="true"}}">
+					<a class="post-nav-item post-nav-prev" aria-label="{{title}}" href="{{url absolute="true"}}">
 						<section class="post-nav-teaser">
 							<span class="post-nav-icon"><i class="icon-arrow-right"></i></span>
 							<span class="post-nav-info">
