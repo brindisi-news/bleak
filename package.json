@@ -45,9 +45,7 @@
     "load-grunt-tasks": "^3.5.2"
   },
   "config": {
-    "posts_per_page": 9
-  },
-  "config": {
+    "posts_per_page": 9,
     "image_sizes": {
         "xxs": {
             "width": 30
@@ -68,4 +66,5 @@
             "width": 2000
         }
     }
+}
 }
