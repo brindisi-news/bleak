@@ -30,7 +30,7 @@
 				</div>
 				<div class="nav-menu">
 					{{#if @site.navigation}}
-					<a class="menu" data-action="menu" data-target="menu"><i class="icon-menu"></i></a>
+					<a id="main" class="menu" data-action="menu" data-target="menu"><i class="icon-menu"></i></a>
 					{{/if}}
 				</div>
 			</nav>
@@ -38,6 +38,7 @@
 			<div id="body-class" style="display: none;" class="{{body_class}}"></div>
 			<footer id="footer">
 				<section class="credits">
+					<span>{{t Questo sito è ottimizzato oltre che per dispositivi mobili ma siamo orgogliosi che lo sia per l'accessibilità universale attraverso apparati che consentono la fruizione del sito a persone con problemi di vista o mobilità, in caso di non riconoscimento delle funzionalità vi ringrazieremo se potrete farcelo presente. }}</span>
 					<span class="credits-software"><a href="https://brindisi.tk/privacy/" target="_blank">Privacy Policy Cookies e GDPR</a> {{t " - " }}<a href="https://brindisi.tk" target="_blank">Brindisi.tk</a>{{t " © "}} {{date format="YYYY"}}</span>
 				</section>
 			</footer>
@@ -47,7 +48,7 @@
 		</div>
 	</div>
 	{{ghost_foot}}
-	<script type="text/javascript" src="https://brindisi.tk{{asset "js/dependencies.js"}}"></script>
+	<script type="text/javascript" src="https://brindisi.tk{{asset "js/dependencie.js"}}"></script>
 	<script type="text/javascript" src="https://brindisi.tk{{asset "js/script.js"}}"></script>
 </body>
 </html>
