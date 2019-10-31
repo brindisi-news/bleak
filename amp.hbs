@@ -465,7 +465,7 @@
             border-bottom: 1px solid #333333;
         }
 
-        .post-content amp-img, 
+        .post-content amp-img,
         .post-content amp-anim,
         .post-content img{
             position: relative;
@@ -682,7 +682,7 @@
             background-size: 17px;
         }
 
-        .gh-signin .btn:not([disabled]):not(.disabled).active, 
+        .gh-signin .btn:not([disabled]):not(.disabled).active,
         .gh-signin .btn:not([disabled]):not(.disabled):active,
         .gh-signin .btn:hover{
             background-image: url('../img/next.svg');
@@ -748,7 +748,7 @@
         {{#if feature_image}}
         <div class="hero">
         <figure class="post-image">
-<a class="img" href="{{url}}" title="{{name}}"><amp-img src="{{img_url feature_image size="s"}}" alt="{{name}}" class="contain" layout="fill"></amp-img></a></figure>
+<a class="img" href="{{url}}" title="{{{title}}}"><amp-img src="{{img_url feature_image size="s"}}" alt="{{{title}}}{{t " - Brindisi.tk"}}" class="contain" layout="fill"></amp-img></a></figure>
 </div>
 {{/if}}
             <div class="row">
@@ -761,7 +761,7 @@
                         {{#foreach tags}}
                             <li>
                                 <a href="{{url}}" title="{{name}}" class="tag tag-{{comment_id}} {{slug}}">{{name}}</a>
-                            </li>  
+                            </li>
                         {{/foreach}}
                         </ul>
                     {{/if}}
